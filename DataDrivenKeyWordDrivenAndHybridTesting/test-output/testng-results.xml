@@ -1,21 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36227" started-at="2018-03-16T21:27:48Z" finished-at="2018-03-16T21:28:24Z">
+  <suite name="Default suite" duration-ms="121" started-at="2018-03-24T01:55:31Z" finished-at="2018-03-24T01:55:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36227" started-at="2018-03-16T21:27:48Z" finished-at="2018-03-16T21:28:24Z">
-      <class name="drivenTestApps.KeyWordDrivenTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:drivenTestApps.KeyWordDrivenTest@490ab905]" name="beforeTest" is-config="true" duration-ms="5215" started-at="2018-03-16T21:27:48Z" finished-at="2018-03-16T21:27:53Z">
+    <test name="Default test" duration-ms="121" started-at="2018-03-24T01:55:31Z" finished-at="2018-03-24T01:55:31Z">
+      <class name="drivenTestApps.HybridTesting">
+        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="25" started-at="2018-03-24T01:55:31Z" data-provider="Passing Three parameters" finished-at="2018-03-24T01:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1, 2, 3, 4]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{1=[Ljava.lang.String;@23faf8f2, 2=[Ljava.lang.String;@23faf8f2, 3=[Ljava.lang.String;@23faf8f2, 4=[Ljava.lang.String;@23faf8f2}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:drivenTestApps.KeyWordDrivenTest@490ab905]" name="test" duration-ms="30981" started-at="2018-03-16T21:27:53Z" finished-at="2018-03-16T21:28:24Z">
+        </test-method> <!-- verifyData3 -->
+        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="5" started-at="2018-03-24T01:55:31Z" data-provider="Passing Three parameters" finished-at="2018-03-24T01:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1, 2, 3, 4]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{1=[Ljava.lang.String;@23faf8f2, 2=[Ljava.lang.String;@23faf8f2, 3=[Ljava.lang.String;@23faf8f2, 4=[Ljava.lang.String;@23faf8f2}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- drivenTestApps.KeyWordDrivenTest -->
+        </test-method> <!-- verifyData3 -->
+        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="12" started-at="2018-03-24T01:55:31Z" data-provider="Passing Three parameters" finished-at="2018-03-24T01:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1, 2, 3, 4]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{1=[Ljava.lang.String;@23faf8f2, 2=[Ljava.lang.String;@23faf8f2, 3=[Ljava.lang.String;@23faf8f2, 4=[Ljava.lang.String;@23faf8f2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyData3 -->
+      </class> <!-- drivenTestApps.HybridTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
