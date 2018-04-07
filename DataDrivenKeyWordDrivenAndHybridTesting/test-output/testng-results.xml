@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121" started-at="2018-03-24T01:55:31Z" finished-at="2018-03-24T01:55:31Z">
+  <suite name="Default suite" duration-ms="60" started-at="2018-04-07T23:08:05Z" finished-at="2018-04-07T23:08:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121" started-at="2018-03-24T01:55:31Z" finished-at="2018-03-24T01:55:31Z">
+    <test name="Default test" duration-ms="60" started-at="2018-04-07T23:08:05Z" finished-at="2018-04-07T23:08:05Z">
       <class name="drivenTestApps.HybridTesting">
-        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="25" started-at="2018-03-24T01:55:31Z" data-provider="Passing Three parameters" finished-at="2018-03-24T01:55:31Z">
+        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="4" started-at="2018-04-07T23:08:05Z" data-provider="Passing Three parameters" finished-at="2018-04-07T23:08:05Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyData3 -->
-        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="5" started-at="2018-03-24T01:55:31Z" data-provider="Passing Three parameters" finished-at="2018-03-24T01:55:31Z">
+        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="0" started-at="2018-04-07T23:08:05Z" data-provider="Passing Three parameters" finished-at="2018-04-07T23:08:05Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyData3 -->
-        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="12" started-at="2018-03-24T01:55:31Z" data-provider="Passing Three parameters" finished-at="2018-03-24T01:55:31Z">
+        <test-method status="PASS" signature="verifyData3(java.lang.String, java.util.ArrayList, java.util.HashMap)[pri:0, instance:drivenTestApps.HybridTesting@271053e1]" name="verifyData3" duration-ms="0" started-at="2018-04-07T23:08:05Z" data-provider="Passing Three parameters" finished-at="2018-04-07T23:08:05Z">
           <params>
             <param index="0">
               <value>
